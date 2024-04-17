@@ -172,7 +172,8 @@ latlong=lat:long'
      # if dataage - use:dataage_utcoffset_timetype
      # preprocesslogic='min,max,count,variance,outliers,anomprob'
      # preprocesslogic='anomprob,tren,avg'
-     preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
+     # preprocesslogic='MIN,MAX,COUNT,VARIANCE,OUTLIERS,ANOMPROB'
+     preprocesslogic='MIN,MAX,ANOMPROB'
 
      pathtotmlattrs='oem=n/a,lat=n/a,long=n/a,location=n/a,identifier=n/a'          
      try:
